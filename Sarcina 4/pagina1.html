@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina 1</title>
+    <link rel="stylesheet" href="css/pagina1.css">
+    <style>
+        * { font-family: Arial; }
+        h1, h2 { color: blue; }
+        p { color: black; }
+        table { border: 1px solid black; }
+    </style>
+</head>
+<body>
+<header>
+    <h1 style="color:red;">Introducere în HTML</h1>
+</header>
+<nav>
+    <a href="pagina2.html">Pagina 2</a> |
+    <a href="pagina3.html">Pagina 3</a>
+</nav>
+<main>
+<section id="prezentare">
+    <h2>Despre site</h2>
+    <p style="font-weight:bold;">Acest site este creat pentru a învăța bazele HTML și CSS.</p>
+</section>
+
+<section class="box">
+    <h2>Informații</h2>
+    <p>HTML este limbajul principal pentru crearea paginilor web.</p>
+    <p>CSS este folosit pentru stilizarea paginilor.</p>
+</section>
+<section>
+    <h2>Elemente HTML de bază</h2>
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>Descriere</th>
+            <th>Exemplu</th>
+        </tr>
+        <tr>
+            <td>&lt;h1&gt;</td>
+            <td>Titlu</td>
+            <td>&lt;h1&gt;Text&lt;/h1&gt;</td>
+        </tr>
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>Paragraf</td>
+            <td>&lt;p&gt;Text&lt;/p&gt;</td>
+        </tr>
+        <tr>
+            <td>&lt;a&gt;</td>
+            <td>Link</td>
+            <td>&lt;a&gt;Link&lt;/a&gt;</td>
+        </tr>
+    </table>
+</section>
+<section class="box">
+    <h2>Formular</h2>
+    <form>
+        <input type="text" placeholder="Nume"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="password" placeholder="Parolă"><br>
+        <select>
+            <option>Elev</option>
+            <option>Student</option>
+        </select><br>
+        <button style="background-color:gray;">Trimite</button>
+    </form>
+</section>
+</main>
+<footer>
+    <p>Autor: Barbaroș Dan</p>
+    <p>An: 2026</p>
+    <p>Contact: danbarbarosh@gmail.com</p>
+</footer>
+</body>
+</html>
