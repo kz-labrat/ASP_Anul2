@@ -14,3 +14,11 @@ nav {
 footer {
     text-align: center;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+input, select, button {
+    margin: 5px 0;
+}

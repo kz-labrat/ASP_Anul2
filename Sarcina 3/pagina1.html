@@ -5,27 +5,70 @@
     <title>Pagina 1</title>
     <link rel="stylesheet" href="css/pagina1.css">
 </head>
-
 <body>
-
 <header>
     <h1>Introducere în HTML</h1>
 </header>
-
 <nav>
     <a href="pagina2.html">Pagina 2</a> |
     <a href="pagina3.html">Pagina 3</a>
 </nav>
-
 <main>
-<p>HTML (HyperText Markup Language) este limbajul standard utilizat pentru crearea paginilor web. Acesta permite structurarea conținutului prin elemente precum titluri, paragrafe, liste și linkuri.</p>
-<p>Fiecare pagină web este alcătuită dintr-o structură de bază care include secțiuni precum head și body. În secțiunea head sunt incluse informații despre pagină, iar în body se află conținutul vizibil.</p>
-<p>Utilizarea corectă a elementelor HTML contribuie la organizarea clară a informației și la o experiență mai bună pentru utilizatori.</p>
-</main>
+    <section>
+        <p>HTML (HyperText Markup Language) este limbajul standard utilizat pentru crearea paginilor web. Acesta permite structurarea conținutului prin elemente precum titluri, paragrafe, liste și linkuri.</p>
+        <p>Fiecare pagină web este alcătuită dintr-o structură de bază care include secțiuni precum head și body. În secțiunea head sunt incluse informații despre pagină, iar în body se află conținutul vizibil.</p>
+        <p>Utilizarea corectă a elementelor HTML contribuie la organizarea clară a informației și la o experiență mai bună pentru utilizatori.</p>
+    </section>
+    <section>
+        <h2>Elemente HTML de bază</h2>
+        <table border="1">
+            <tr>
+                <th>Element</th>
+                <th>Descriere</th>
+                <th>Exemplu</th>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt;</td>
+                <td>Titlu principal</td>
+                <td>&lt;h1&gt;Titlu&lt;/h1&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>Paragraf</td>
+                <td>&lt;p&gt;Text&lt;/p&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>Link</td>
+                <td>&lt;a href="#"&gt;Link&lt;/a&gt;</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Formular de contact</h2>
+        <form>
+            <label>Nume:</label><br>
+            <input type="text" name="nume"><br><br>
 
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label>Parolă:</label><br>
+            <input type="password" name="parola"><br><br>
+
+            <label>Tip utilizator:</label><br>
+            <select>
+                <option>Elev</option>
+                <option>Student</option>
+                <option>Profesor</option>
+            </select><br><br>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </section>
+</main>
 <footer>
     <p>Lucrare nr. 2</p>
 </footer>
-
 </body>
 </html>
