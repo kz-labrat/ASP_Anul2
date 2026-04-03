@@ -1,36 +1,26 @@
+/* Reset de bază */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
-    margin: 0;
+    color: #333;
 }
 
+/* HEADER */
 header {
     background-color: #2c3e50;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
-h1 {
-    font-size: 32px;
-}
-
-h2 {
-    color: #2980b9;
-    margin-top: 20px;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-}
-
-.important {
-    font-weight: bold;
-    color: #e74c3c;
-}
-
+/* NAV */
 nav {
     background-color: #34495e;
     padding: 10px;
@@ -40,7 +30,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
     font-weight: bold;
 }
 
@@ -49,27 +39,55 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* MAIN */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* TITLURI */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #2980b9;
+    margin: 20px 0 10px;
+}
+
+/* TEXT */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* TEXT IMPORTANT */
+.important {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* BOX */
 .box {
     background-color: white;
     padding: 15px;
-    margin: 15px;
+    margin: 15px 0;
     border-left: 5px solid #3498db;
+    border-radius: 5px;
 }
 
-ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-ol {
-    list-style-type: decimal;
-    padding-left: 20px;
+/* LISTE */
+ul, ol {
+    padding-left: 25px;
+    margin-top: 10px;
 }
 
 li {
     margin: 5px 0;
 }
 
+/* TABLE */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -91,16 +109,19 @@ tr:nth-child(even) {
     background-color: #ecf0f1;
 }
 
+/* FORM */
 input, select {
-    margin: 5px 0;
-    padding: 5px;
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
 }
 
+/* BUTTON */
 button {
     background-color: #3498db;
     color: white;
     border: none;
-    padding: 8px 12px;
+    padding: 10px 15px;
     cursor: pointer;
 }
 
@@ -108,10 +129,11 @@ button:hover {
     background-color: #2980b9;
 }
 
+/* FOOTER */
 footer {
     background-color: #2c3e50;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
 }
